@@ -1,0 +1,35 @@
+{
+  "name": "demo-rest-server",
+  "version": "1.0.0",
+  "description": "A demo REST server with very basic functionalities",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --timeout 5000 test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacopofar/demo-REST-server.git"
+  },
+  "author": "Jacopo Farina",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jacopofar/demo-REST-server/issues"
+  },
+  "homepage": "https://github.com/jacopofar/demo-REST-server#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "lru-cache": "^4.0.1",
+    "mkdirp": "^0.5.1",
+    "morgan": "^1.7.0",
+    "nconf": "^0.8.4",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "request": "^2.72.0",
+    "rimraf": "^2.5.2",
+    "should": "^8.3.1"
+  }
+}
